@@ -2,6 +2,7 @@
   "name": "myfirstgame",
   "version": "1.0.0",
   "dependencies": [
-    "glfw3"
+    "glfw3",
+    "glad"
   ]
 }

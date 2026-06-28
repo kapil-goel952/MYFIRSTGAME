@@ -1,9 +1,21 @@
 #include <iostream>
-using namespace std;
+#include <GLFW/glfw3.h>
 
 int main()
 {
-    cout << "Game Started!" << std::endl;
+    if (!glfwInit())
+    {
+        std::cout << "Failed to initialize GLFW\n";
+        return -1;
+    }
 
-    return 0;
+    std::cout << "GLFW Initialized Successfully\n";
+
+    GLFWwindow* window = glfwCreateWindow(
+        1920,
+        1080,
+        "My First Game",
+        nullptr,
+        nullptr
+    );
 }
