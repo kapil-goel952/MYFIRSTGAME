@@ -1,0 +1,20 @@
+# Visual Studio
+.vs/
+
+# CMake build output
+out/
+build/
+
+# CMake generated files
+CMakeUserPresets.json
+
+# Visual Studio cache
+*.VC.db
+*.VC.opendb
+
+# Temporary files
+*.tmp
+
+# Windows
+Thumbs.db
+Desktop.ini
